@@ -9,7 +9,6 @@ def add_hra(basic, percent):
 def deduct_tax(salary, percent):
     return salary - (salary * percent / 100.0)
 
-
 if __name__ == "__main__":
     hours = 160
     rate = 250
