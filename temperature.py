@@ -8,9 +8,7 @@ def fahrenheit_to_celsius(f):
 def celsius_to_kelvin(c):
     return c + 273.15
 
-
 if __name__ == "__main__":
-
     print(celsius_to_fahrenheit(25))
     print(fahrenheit_to_celsius(77))
     print(celsius_to_kelvin(25))
