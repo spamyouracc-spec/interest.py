@@ -15,9 +15,11 @@ if __name__ == "__main__":
     basic = basic_pay(hours, rate)
     print(basic)
 
+
     hra_percent = 20  
     salary_with_hra = add_hra(basic, hra_percent)
     print(salary_with_hra)
+
 
     tax_percent = 10 
     salary_after_tax = deduct_tax(salary_with_hra, tax_percent)
